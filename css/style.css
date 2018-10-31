@@ -111,9 +111,7 @@ h2{
        font-weight: bold;
        font-family: var(--main-font-family);
    }
-.footer{
-    background-color: darkkhaki;   
-   }
+
    
  h3{
     color:var(--red-text);
@@ -147,7 +145,7 @@ opacity:0.6;
 .box-two{
        width:600px;
        height:600px;  
-       background-color: blanchedalmond; 
+       /* background-color: blanchedalmond;  */
        margin: 25px;
        display: flex;
        flex-wrap: wrap;
@@ -190,7 +188,7 @@ opacity:0.6;
 .box-three{
        width:550px;
        height:600px;   
-       background-color: dimgray;
+       /* background-color: dimgray; */
        margin: 25px;
        display:flex;
        flex-wrap: wrap;
@@ -307,7 +305,8 @@ margin-right: 40px;
     display: flex;
     justify-content: space-around;  
     flex-wrap: wrap;
-    margin-top: 40px;  
+    margin-top: 40px; 
+    padding-bottom:30px; 
     }
 .item{
 background-image: url("../img/img20.jpeg"); 
@@ -409,7 +408,7 @@ top:40%;
 left:40%;
    }
 .footer{
-   background-color: rgb(255, 249, 170);
+  /*  background-color: rgb(255, 249, 170); */
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
